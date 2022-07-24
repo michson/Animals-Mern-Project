@@ -11,7 +11,7 @@ const React =require('react')
 const ReactDOMServer = require('react-dom/server')
 const AnimalCard = require("./src/components/AnimalCard").default
 const { info } = require("console")
-//to Ensure public/uploaded-photos exist on first run of this app
+//to Ensure public/uploaded-photos exist on first run of this app. Create if not
 fse.ensureDirSync(path.join("public","uploaded-photos"))
 
 const app = express()
