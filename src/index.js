@@ -4,7 +4,6 @@ import Axios from "axios"
 import CreateNewForm from "./components/CreatNewForm"
 import AnimalCard from "./components/AnimalCard"
 
-
 function App(){
     const [animals, setAnimals] = useState([])
     useEffect(()=>{
