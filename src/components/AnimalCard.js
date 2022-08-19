@@ -103,6 +103,4 @@ function AnimalCard(props) {
     </div>
   )
 }
-
-
 export default AnimalCard
