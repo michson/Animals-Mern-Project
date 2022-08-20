@@ -60,7 +60,6 @@ app.get("/api/animals", async (req, res)=>{
 
 app.post("/create-animal", upload.single("photo"),ourCleanup, async (req, res)=>{
     //if(req.body.name=='null'){
-
     //}
     if(req.file){
         const photofilename =`${Date.now()}.jpg`
