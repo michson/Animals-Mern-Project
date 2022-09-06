@@ -117,6 +117,5 @@ async function start(){
     db = client.db()
     app.listen(3000)
 }
-
 start()
 
