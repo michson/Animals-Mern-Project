@@ -37,8 +37,6 @@ function App(){
 }
 
 
-
-
 //function AnimalCards(props){
 //    return <p> Hi, my name is {props.name} and I am a {props.species}.</p>
 
