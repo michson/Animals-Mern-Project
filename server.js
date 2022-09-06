@@ -1,4 +1,4 @@
-const {MongoClient, ObjectId} = require("mongodb")
+Noconst {MongoClient, ObjectId} = require("mongodb")
 const express = require("express")
 const multer = require('multer')
 const upload = multer()
@@ -21,7 +21,6 @@ app.set("views","./views")
 app.use(express.static("public"))
 app.use(express.json())
 app.use(express.urlencoded({extended:false}))
-
 
 function passwordProtected(req,res,next){
     res.set("WWW-Authenticate","Basic realm='Our MERN App'")
