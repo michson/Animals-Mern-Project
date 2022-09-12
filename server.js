@@ -54,6 +54,7 @@ app.get("/admin",(req,res)=>{
     //res.send("Welcome to Mik Super Secure Admin")
 })
 
+
 app.get("/api/animals", async (req, res)=>{
     const allAnimals = await db.collection("animals").find().toArray()
     res.json(allAnimals)
