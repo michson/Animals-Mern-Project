@@ -44,7 +44,6 @@ app.get("/", async (req, res)=>{
         </div>
     )
     res.render("home",{generatedHTML})
-
 })
 
 app.use(passwordProtected)
