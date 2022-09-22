@@ -31,6 +31,7 @@ function passwordProtected(req,res,next){
     }
 }
 
+
 app.get("/", async (req, res)=>{
     const allAnimals = await db.collection("animals").find().toArray()
     const generatedHTML = ReactDOMServer.renderToString(
