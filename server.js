@@ -1,4 +1,4 @@
-Noconst {MongoClient, ObjectId} = require("mongodb")
+NoNoconst {MongoClient, ObjectId} = require("mongodb")
 const express = require("express")
 const multer = require('multer')
 const upload = multer()
@@ -13,7 +13,6 @@ const AnimalCard = require("./src/components/AnimalCard").default
 const { info } = require("console")
 //to Ensure public/uploaded-photos exist on first run of this app. Create if not
 fse.ensureDirSync(path.join("public","uploaded-photos"))
-
 
 const app = express()
 app.set("view engine","ejs")
