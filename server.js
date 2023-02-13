@@ -14,6 +14,7 @@ const { info } = require("console")
 //to Ensure public/uploaded-photos exist on first run of this app. Create if not
 fse.ensureDirSync(path.join("public","uploaded-photos"))
 
+
 const app = express()
 app.set("view engine","ejs")
 app.set("views","./views")
