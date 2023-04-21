@@ -3,5 +3,4 @@ const mik = () => {
     <div>mik</div>
   )
 }
-
 export default mik
