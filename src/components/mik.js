@@ -4,4 +4,3 @@ const mik = () => {
   )
 }
 export default mik
-
